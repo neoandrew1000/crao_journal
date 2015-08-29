@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6.0" client="site" method="upgrade">
+    <name>iJoomla Speed Check</name>
+    <author>iJoomla.com</author>
+    <creationDate>June 2, 2011</creationDate>
+    <copyright>(C) 2011 iJoomla.com</copyright>
+    <license>GNU General Public License, version 2 http://www.ijoomla.com/licensing/</license>
+	<authorEmail>webmaster@ijoomla.com</authorEmail>
+    <authorUrl>www.ijoomla.com</authorUrl>
+    <version>1.0</version>
+    <description>
+        This module will display the time needed to load the current page.
+        You will have to enable the ijoomla_speed_check plugin first and then create a new speed check module.
+    </description>
+    <files>
+        <filename module="mod_ijoomla_speed_check">mod_ijoomla_speed_check.php</filename>
+        <filename module="mod_ijoomla_speed_check">mod_ijoomla_speed_check.css</filename>
+        <filename module="mod_ijoomla_speed_check">index.html</filename>
+        <filename module="mod_ijoomla_speed_check">tmpl/default.php</filename>
+        <filename module="mod_ijoomla_speed_check">tmpl/index.html</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="border_color" type="text" default="E9E9E9" label="Border color #" description="Border color" />
+                <field name="bgcolor" type="text" default="FFFFFF" label="Background color #" description="Border color" />
+                <field name="color" type="text" default="66666" label="Text color #" description="Border color" />
+                <field name="provided_color" type="text" default="999999" label="Provided by color #" description="Border color" />
+                <field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="Module class suffix" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
+

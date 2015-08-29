@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form
+	addrulepath="/administrator/components/com_slp/models/rules"
+	addfieldpath="/administrator/components/com_slp/models/fields"
+>
+	<fieldset name="details">
+		<field
+			name="id"
+			type="hidden"
+		/>
+		<field
+			default="1.3.0"
+			description=""
+			label="Version"
+			name="version"
+			type="integer"
+		/>
+		<field
+			class="inputbox anzahl"
+			default=""
+			description=""
+			label="Anzahl"
+			name="anzahl"
+			size="40"
+			type="text"
+		/>
+		<field
+			default="strict"
+			description=""
+			label="Suchm"
+			name="suchm"
+			type="radio"
+		>
+			<option
+				value="strict">Strict</option>
+			<option
+				value="loose">Loose</option>
+		</field>
+		<field
+			default="Ja"
+			description=""
+			label="Erreichb"
+			name="erreichb"
+			type="radio"
+		>
+			<option
+				value="Ja">Ja</option>
+			<option
+				value="Nein">Nein</option>
+		</field>
+		<field
+			default="Neu"
+			description=""
+			label="Fenster"
+			name="fenster"
+			type="radio"
+		>
+			<option
+				value="Neu">Neu</option>
+			<option
+				value="Bestehend">Bestehend</option>
+		</field>
+		<field
+			default="Ja"
+			description=""
+			label="Hinweis"
+			name="hinweis"
+			type="radio"
+		>
+			<option
+				value="Ja">Ja</option>
+			<option
+				value="Nein">Nein</option>
+		</field>
+	</fieldset>
+</form>

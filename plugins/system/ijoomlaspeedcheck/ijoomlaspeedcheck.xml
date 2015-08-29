@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="system">
+	<name>iJoomla Speed Check</name>
+	<author>iJoomla.com</author>
+	<creationDate>May 30, 2011</creationDate>
+	<copyright>(C) 2011 iJoomla.com</copyright>
+	<license>GNU General Public License, version 2 http://www.ijoomla.com/licensing/</license>
+	<authorEmail>webmaster@ijoomla.com</authorEmail>
+	<authorUrl>www.ijoomla.com</authorUrl>
+	<version>1.0</version>
+	<description>Plugin used by the iJoomla speed check module. You must enable this plugin for the module to work properly.</description>
+	<files>
+		<filename plugin="ijoomlaspeedcheck">ijoomlaspeedcheck.php</filename>
+	</files>
+</extension>

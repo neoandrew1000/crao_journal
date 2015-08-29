@@ -1,0 +1,67 @@
+#ijoomla_pageload {
+    /*height: 97px;*/
+    /* background: #FFFFFF; */
+    position: relative;
+    overflow: hidden;
+    border-left: 2px solid #E9E5E5;
+    border-right: 2px solid #E9E5E5;
+}
+#ijoomla_pageload span {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+#ijoomla_pageload a, #ijoomla_pageload a:visited {
+    display: inline;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 9px;
+    height: 16px;
+    color: #999999;
+    /* background: #E9E5E5; */
+}
+#ijoomla_pageload span.ij_units {
+    font-family: Arial,Helvetica;
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: bold;
+    height: 45px;
+}
+#ijoomla_pageload span.ij_time, #ijoomla_pageload span.ij_pspeed {
+    font-size: 13px;
+    font-weight: bold;
+    height: 15px;
+    line-height: 15px;
+}
+#ijoomla_pageload span.ij_time {
+    padding-bottom: 2px;
+}
+#ijoomla_pageload span.ij_pspeed {
+    /* background: #E9E5E5; */
+    padding: 2px 0;
+    font-size: 12px;
+}
+#ijoomla_pageload .provided_content {
+    background: none repeat scroll 0 0 #E9E9E9;
+    /*height: 16px;
+    overflow: hidden;*/
+    text-align: center;
+    line-height: 12px;
+margin:0px;
+}
+#ijoomla_pageload .ij_provided {
+    background: none repeat scroll 0 0 #E9E9E9;
+    color: #999999;
+    /*line-height: 12px;*/
+    display: inline;
+    font-size: 9px;
+    /*height: 16px;*/
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: auto;
+}
+#ijoomla_pageload a {
+    line-height: 12px;
+}

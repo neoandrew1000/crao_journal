@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form
+	addrulepath="/administrator/components/com_slp/models/rules"
+	addfieldpath="/administrator/components/com_slp/models/fields"
+>
+	<fieldset name="details">
+		<field
+			name="id"
+			type="hidden"
+		/>
+		<field
+			class="inputbox validate-wort"
+			default=""
+			description=""
+			label="SL_LABEL"
+			name="wort"
+			required="true"
+			size="40"
+			type="text"
+			validate="wort"
+		/>
+		<field
+			class="inputbox validate-ersatz"
+			default=""
+			description=""
+			label="SL_REPLACE_WITH_URL"
+			name="ersatz"
+			required="true"
+			size="40"
+			type="text"
+			validate="ersatz"
+		/>
+		<field
+			class="inputbox validate-schlagwort"
+			default=""
+			description=""
+			label="SL_TAG"
+			name="schlagwort"
+			required="true"
+			size="40"
+			type="text"
+			validate="schlagwort"
+		/>
+		<field
+			default="self"
+			description=""
+			label="SL_OPENIN"
+			name="fenster"
+			required="true"
+			type="radio"
+			validate="fenster"
+		>
+			<option
+				value="blank">SL_NEWWIN</option>
+			<option
+				value="self">SL_OLDWIN</option>
+		</field>
+		<field
+			default="1"
+			description=""
+			label="SL_CHECK"
+			name="publ"
+			required="true"
+			type="radio"
+			validate="publ"
+		>
+			<option
+				value="0">JYES</option>
+			<option
+				value="1">JNO</option>
+		</field>
+		<field
+			default="now"
+			description=""
+			label="SL_BEGPUB"
+			name="begpub"
+			required="true"
+			format="%Y-%m-%d %H:%M:%S"
+			type="calendar"
+			validate="begpub"
+		/>
+		<field
+			default="0000-00-00 00:00:00"
+			description=""
+			label="SL_ENDPUB"
+			name="endpub"
+			required="true"
+			format="%Y-%m-%d %H:%M:%S"
+			type="calendar"
+			validate="endpub"
+		/>
+		<field
+			class="inputbox validate-anzahl"
+			default="5"
+			description=""
+			label="SL_ANZAHL"
+			name="anzahl"
+			required="true"
+			size="40"
+			type="text"
+			validate="anzahl"
+		/>
+		<field
+			default="0"
+			description=""
+			label="SL_SUCHM"
+			name="suchm"
+			required="true"
+			type="radio"
+			validate="suchm"
+		>
+			<option
+				value="0">SL_SUCHM_GW</option>
+			<option
+				value="1">SL_SUCHM_TW</option>
+		</field>
+		<field
+			default="0"
+			description=""
+			label="SL_NOFOLLOW"
+			name="nofollow"
+			required="true"
+			type="radio"
+			validate="nofollow"
+		>
+			<option
+				value="0">JYES</option>
+			<option
+				value="1">JNO</option>
+		</field>
+		<field
+			name="ausnahme"
+			type="hidden"
+		/>
+
+	</fieldset>
+</form>

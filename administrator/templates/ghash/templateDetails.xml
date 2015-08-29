@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.3" type="template" client="administrator">
+	<name>Ghash</name>
+	<version>1.0</version>
+	<creationDate>4/11/2014</creationDate>
+	<author>Andrew Borisov</author>
+	<authorEmail>neoandrew@yandex.ru</authorEmail>
+	<copyright>Copyright (C) 2014 Open Source Matters, Inc. All rights reserved.</copyright>
+	<description>TPL_GHASH_XML_DESCRIPTION</description>
+	<files>
+		<filename>component.php</filename>
+		<filename>cpanel.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>login.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+	</files>
+	<positions>
+		<position>menu</position>
+		<position>submenu</position>
+		<position>toolbar</position>
+		<position>title</position>
+		<position>status</position>
+		<position>icon</position>
+		<position>cp_shell</position>
+		<position>cpanel</position>
+		<position>bottom</position>
+		<position>footer</position>
+		<position>login</position>
+		<position>debug</position>
+	</positions>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_ghash.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_ghash.sys.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.tpl_ghash.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.tpl_ghash.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+
+				<field name="templateColor" class="" type="color" default="#4d1414"
+				validate="color"
+				label="TPL_GHASH_COLOR_LABEL"
+				description="TPL_GHASH_COLOR_DESC" />
+				
+				<field name="headerColor" class="" type="color" default="#3d3d3d"
+				validate="color"
+				label="TPL_GHASH_COLOR_HEADER_LABEL"
+				description="TPL_GHASH_COLOR_HEADER_DESC" />
+
+				<field name="sidebarColor" class="" type="color" default="#8c3636"
+				validate="color"
+				label="TPL_GHASH_COLOR_SIDEBAR_LABEL"
+				description="TPL_GHASH_COLOR_SIDEBAR_DESC" />
+
+				<field name="admin_menus" type="radio"
+				class="btn-group btn-group-yesno"
+				default="1"
+				label="TPL_GHASH_FIELD_ADMIN_MENUS_LABEL"
+				description="TPL_GHASH_FIELD_ADMIN_MENUS_DESC"
+				filter="integer">
+				<option
+					value="1">JYES</option>
+				<option
+					value="0">JNO</option>
+				</field>
+
+				<field name="displayHeader" type="radio"
+				class="btn-group btn-group-yesno"
+				default="1"
+				label="TPL_GHASH_HEADER_LABEL"
+				description="TPL_GHASH_HEADER_DESC"
+				filter="integer">
+				<option
+					value="1">JYES</option>
+				<option
+					value="0">JNO</option>
+				</field>
+
+				<field name="statusFixed" type="list"
+				default="1"
+				label="TPL_GHASH_STATUS_LABEL"
+				description="TPL_GHASH_STATUS_DESC"
+				filter="integer">
+				<option
+					value="1">TPL_GHASH_STATUS_BOTTOM</option>
+				<option
+					value="0">TPL_GHASH_STATUS_TOP</option>
+				</field>
+
+				<field name="stickyToolbar" type="radio"
+				class="btn-group btn-group-yesno"
+				default="1"
+				label="TPL_GHASH_STICKY_LABEL"
+				description="TPL_GHASH_STICKY_DESC"
+				filter="integer">
+				<option
+					value="1">JYES</option>
+				<option
+					value="0">JNO</option>
+				</field>
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>
