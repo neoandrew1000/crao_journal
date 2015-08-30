@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="template">
+	<name>razzjournal</name>
+	<creationDate>08/30/2015</creationDate>
+	<author>Andrew Borisov</author>
+	<authorEmail>neoandrew@yandex.ru</authorEmail>
+	<authorUrl>http://www.sitef.org</authorUrl>
+	<copyright>Andrew Borisov 2015</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.4</version>
+	<description>TPL_RAZZJOURNAL_XML_DESCRIPTION</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>index.html</filename>
+		<filename>README.md</filename>
+		<filename>LICENSE.txt</filename>
+		<filename>config.rb</filename>
+		<folder>images</folder>
+		<folder>css</folder>
+		<folder>.sass-cache</folder>
+		<folder>font</folder>
+		<folder>html</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<folder>sass</folder>
+	</files>
+	<positions>
+		<position>logotype</position>
+		<position>login</position>
+		<position>menu</position>
+		<position>breadcrumbs</position>
+		<position>content</position>
+		<position>footer</position>
+		<position>debug</position>
+	</positions>
+</extension>
