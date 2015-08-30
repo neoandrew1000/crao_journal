@@ -1,0 +1,27 @@
+$height-header: 100px;
+$height-main: 900px;
+#header {
+	background-color: red;
+	height: $height-header;
+}
+#logotype {
+	background-color: green;
+	height: $height-header;
+}
+#login {
+	background-color: blue;
+	height: $height-header;
+}
+#main{
+	background-color: black;
+	height: $height-main;
+}
+#aside {
+	background-color: green;
+	height: $height-main;
+}
+#content {
+	background-color: blue;
+	height: $height-main;
+}
+

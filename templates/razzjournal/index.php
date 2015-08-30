@@ -16,21 +16,21 @@
 	<body>
 		<!--HEADER-->
 		<div id="header" class="row">
-			<div id="logotype" class="col s12 m6 l3">
+			<div id="logotype" class="col s12 m6 l3 left">
 			</div><!--logotype.col-->
-			<div id="login"  class="col s12 m6 l3">
+			<div id="login"  class="col s12 m6 l3 right">
 			</div><!--login.col-->		
 		</div><!--header.row-->
 		<!--END OF HEADER-->
 		<!--MAIN-->
 		<div id="main" class="row">
-		<div id="aside" class="col s12 m4 l3">	
+		<div id="aside" class="col s12 m4 l3 left">	
 			<div id="menu">
 			</div><!--menu-->	
 			<div id="search">
 			</div><!--search-->		
 		</div><!--aside.col-->
-		<div id="content" class="col s12 m8 l9">
+		<div id="content" class="col s12 m8 l9 right">
 			<div class="breadcrumbs">
 			</div><!--breadcrumbs-->	
 			<div id="article">

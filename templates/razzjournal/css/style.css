@@ -1,0 +1,35 @@
+/* line 3, ../sass/style.scss */
+#header {
+  background-color: red;
+  height: 100px;
+}
+
+/* line 7, ../sass/style.scss */
+#logotype {
+  background-color: green;
+  height: 100px;
+}
+
+/* line 11, ../sass/style.scss */
+#login {
+  background-color: blue;
+  height: 100px;
+}
+
+/* line 15, ../sass/style.scss */
+#main {
+  background-color: black;
+  height: 900px;
+}
+
+/* line 19, ../sass/style.scss */
+#aside {
+  background-color: green;
+  height: 900px;
+}
+
+/* line 23, ../sass/style.scss */
+#content {
+  background-color: blue;
+  height: 900px;
+}
