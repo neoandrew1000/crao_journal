@@ -29,6 +29,7 @@
 		<position>logotype</position>
 		<position>login</position>
 		<position>menu</position>
+		<position>search</position>
 		<position>breadcrumbs</position>
 		<position>content</position>
 		<position>footer</position>

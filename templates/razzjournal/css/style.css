@@ -1,35 +1,55 @@
-/* line 3, ../sass/style.scss */
-#header {
-  background-color: red;
-  height: 100px;
+/* line 10, ../sass/style.scss */
+#header.row {
+  background-color: #cd3a3a;
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #292929;
+  height: auto2px;
+  margin: 0;
 }
 
-/* line 7, ../sass/style.scss */
+/* line 17, ../sass/style.scss */
 #logotype {
-  background-color: green;
-  height: 100px;
+  background-color: #cd3a3a;
+  height: auto;
+}
+/* line 20, ../sass/style.scss */
+#logotype img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
 }
 
-/* line 11, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 #login {
-  background-color: blue;
-  height: 100px;
+  background-image: url("../images/lodyas.gif");
+  height: 100%;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 30, ../sass/style.scss */
 #main {
-  background-color: black;
   height: 900px;
 }
 
-/* line 19, ../sass/style.scss */
+/* line 33, ../sass/style.scss */
 #aside {
-  background-color: green;
+  background-image: url("../images/lodyas.gif");
   height: 900px;
 }
 
-/* line 23, ../sass/style.scss */
+/* line 37, ../sass/style.scss */
 #content {
-  background-color: blue;
+  background-color: #cbcbcb;
   height: 900px;
+}
+
+/* line 41, ../sass/style.scss */
+#breadcrumbs {
+  width: 100%;
+  height: 30px;
+}
+
+/* line 45, ../sass/style.scss */
+#article {
+  width: 100%;
+  height: 870px;
 }
