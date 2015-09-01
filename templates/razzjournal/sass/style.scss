@@ -26,7 +26,22 @@ $base_img: url('../images/lodyas.gif');
 #login {
 	background-image: $base_img;
 	height: 100%;
+	.collapsible {
+		border-color: #686868;
+	}
+	.collapsible-header {
+		background-color: transparent;
+		border-color: $underlay_color;
+		color: $underlay_color;
+	}
+	.collapsible-body {
+		position: absolute;
+		background-image: $base_img;
+		padding: 20px;
+
+	}
 }
+
 #main{
 	height: $height_main;
 }

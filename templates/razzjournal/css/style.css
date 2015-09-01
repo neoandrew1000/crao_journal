@@ -24,31 +24,47 @@
   background-image: url("../images/lodyas.gif");
   height: 100%;
 }
+/* line 29, ../sass/style.scss */
+#login .collapsible {
+  border-color: #686868;
+}
+/* line 32, ../sass/style.scss */
+#login .collapsible-header {
+  background-color: transparent;
+  border-color: #cbcbcb;
+  color: #cbcbcb;
+}
+/* line 37, ../sass/style.scss */
+#login .collapsible-body {
+  position: absolute;
+  background-image: url("../images/lodyas.gif");
+  padding: 20px;
+}
 
-/* line 30, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
 #main {
   height: 900px;
 }
 
-/* line 33, ../sass/style.scss */
+/* line 48, ../sass/style.scss */
 #aside {
   background-image: url("../images/lodyas.gif");
   height: 900px;
 }
 
-/* line 37, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 #content {
   background-color: #cbcbcb;
   height: 900px;
 }
 
-/* line 41, ../sass/style.scss */
+/* line 56, ../sass/style.scss */
 #breadcrumbs {
   width: 100%;
   height: 30px;
 }
 
-/* line 45, ../sass/style.scss */
+/* line 60, ../sass/style.scss */
 #article {
   width: 100%;
   height: 870px;
